@@ -8,14 +8,13 @@ REGOLE
 - Cerca solo cose non viste a lezione. Tutto il necessario è già stato spiegato in settimana.
 */
 
-
 /* VERSIONE INTERMEDIA — array prodotti
    Crea l'array "prodotti" con almeno 12 oggetti.
    Ogni oggetto: nome, categoria, prezzo, rating (1-5), immagine, disponibile.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const prodotti = [];
 
 /* VERSIONE INTERMEDIA — formattaPrezzo(prezzo)
    Funzione che ritorna una stringa tipo "€ 19,99".
@@ -23,7 +22,6 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 
 /* VERSIONE INTERMEDIA — stelline(rating)
    Funzione che ritorna una stringa di stelline piene/vuote.
@@ -54,7 +52,6 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
 /* VERSIONE AVANZATA — Aggiungi al carrello
    Quando si clicca il bottone "Aggiungi al carrello", incrementa il contatore
    nell'header (Carrello (0) → Carrello (1) → ...).
@@ -64,7 +61,6 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
 /* VERSIONE AVANZATA — Ordinamento
    Menu a tendina con: Nome prodotto, Prezzo crescente, Prezzo decrescente, Rating.
    Suggerimento: per rendere più leggibile la select puoi usare optgroup
@@ -72,14 +68,12 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
 /* VERSIONE AVANZATA — Riepilogo carrello
    Pagina carrello con elenco prodotti aggiunti, totale, bottone "Svuota".
    Concetto da scoprire: localStorage.setItem / localStorage.getItem.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 
 /* VERSIONE AVANZATA — localStorage
    Il carrello sopravvive al refresh della pagina.

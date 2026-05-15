@@ -134,9 +134,49 @@ body {
   font-size: 2em;
 }
 
-a {
+.prodotti {
+  margin: 32px;
+}
+
+.grid-prodotti {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.elements-card-cuffie, .elements-card-tablet, .elements-card-libro, .elements-card-zaino, .elements-card-lampada, .elements-card-smartwatch, .elements-card-mouse, .elements-card-caffettiera {
+  display: grid;
+  height: 200px;
+  margin-right: 32px;
+  border-radius: 8px;
+  background-color: white;
+  color: #111
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+
+.background-card-abbigliamento {
+  height: 200px;
+  background-color: #146eb4;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* a {
   color: inherit;
   text-decoration: none;
+} */
+footer {
+  background-color: #232F3E;
+  color: white;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .table-footer {
@@ -145,6 +185,10 @@ a {
 
 .table-footer thead th {
   text-align: left;
+}
+
+.table-footer tr {
+  font-size: 0.8em;
 }
 
 /* Scrivi qui sotto i tuoi stili */
