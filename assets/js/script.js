@@ -147,9 +147,9 @@ console.log(stelline(5));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 function filtra(categoria) {
-  return prodotti.filter(prodotti.categoria);
-  {
-  }
+  return prodotti.filter(function (prodotto) {
+    return prodotto.categoria === categoria;
+  });
 }
 
 console.log(filtra("Casa"));
@@ -159,7 +159,11 @@ console.log(filtra("Casa"));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+function filtraProdottiDisponibili() {
+  return prodotti.filter(function (prodotto) {
+    return prodotto.disponibile === true && prodotto.rating >= 3;
+  });
+}
 /* --------------------------------------------------------------
 
 /* VERSIONE AVANZATA — renderProdotti(lista)
