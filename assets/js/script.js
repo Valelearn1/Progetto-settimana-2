@@ -119,6 +119,11 @@ const prodotti = [
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function formattaPrezzo(prezzo) {
+  return "€" + prezzo.toFixed(2).replace(".", ",");
+}
+
+console.log("Monitor: " + formattaPrezzo(150));
 
 /* VERSIONE INTERMEDIA — stelline(rating)
    Funzione che ritorna una stringa di stelline piene/vuote.
@@ -127,12 +132,27 @@ const prodotti = [
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function stelline(rating) {
+  const stellinePiene = "★".repeat(rating);
+  const stellineVuote = "☆".repeat(5 - rating);
+  return stellinePiene + stellineVuote;
+}
+
+console.log(stelline(3));
+console.log(stelline(5));
 
 /* VERSIONE INTERMEDIA — Filtro per categoria
    Funzione che riceve il parametro categoria e filtra l'array prodotti mostrando solo i prodotti della categoria ricevuta
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function filtra(categoria) {
+  return prodotti.filter(prodotti.categoria);
+  {
+  }
+}
+
+console.log(filtra("Casa"));
 
 /* VERSIONE INTERMEDIA — Filtro disponibilità e rating
    Funzione che genera un array filtrato dall'array prodotti, mostrando soltanto i prodotti disponibili con rating >= 3
