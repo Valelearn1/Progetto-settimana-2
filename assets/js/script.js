@@ -20,7 +20,7 @@ const prodotti = [
     categoria: "Elettronica",
     prezzo: 59.99,
     rating: 4,
-    immagine: "alexa.jpg",
+    immagine: "assets/img/immagine-alexa.jpeg",
     disponibile: true,
   },
   {
@@ -28,7 +28,7 @@ const prodotti = [
     categoria: "Elettronica",
     prezzo: 139.99,
     rating: 5,
-    immagine: "kindle.jpg",
+    immagine: "assets/img/kindle.jpg",
     disponibile: true,
   },
   {
@@ -36,7 +36,7 @@ const prodotti = [
     categoria: "Elettronica",
     prezzo: 49.99,
     rating: 4,
-    immagine: "chiavetta-usb.jpg",
+    immagine: "assets/img/chiavetta-usb.jpg",
     disponibile: true,
   },
   {
@@ -44,7 +44,7 @@ const prodotti = [
     categoria: "Elettronica",
     prezzo: 229.0,
     rating: 5,
-    immagine: "cuffie.jpg",
+    immagine: "assets/img/cuffie.jpg",
     disponibile: false,
   },
   {
@@ -52,7 +52,7 @@ const prodotti = [
     categoria: "Abbigliamento",
     prezzo: 24.99,
     rating: 4,
-    immagine: "maglia.jpg",
+    immagine: "assets/img/maglia.jpg",
     disponibile: true,
   },
   {
@@ -60,7 +60,7 @@ const prodotti = [
     categoria: "Abbigliamento",
     prezzo: 79.9,
     rating: 4,
-    immagine: "jeans.jpg",
+    immagine: "assets/img/jeans.jpg",
     disponibile: true,
   },
   {
@@ -68,7 +68,7 @@ const prodotti = [
     categoria: "Abbigliamento",
     prezzo: 49.95,
     rating: 4,
-    immagine: "zaino.jpg",
+    immagine: "assets/img/zaino.jpg",
     disponibile: true,
   },
   {
@@ -76,7 +76,7 @@ const prodotti = [
     categoria: "Abbigliamento",
     prezzo: 119.99,
     rating: 3,
-    immagine: "giubbotto.jpg",
+    immagine: "assets/img/giubbotto.jpg",
     disponibile: false,
   },
   {
@@ -84,7 +84,7 @@ const prodotti = [
     categoria: "Casa",
     prezzo: 159.0,
     rating: 5,
-    immagine: "frullatore.jpg",
+    immagine: "assets/img/frullatore.jpg",
     disponibile: true,
   },
   {
@@ -92,7 +92,7 @@ const prodotti = [
     categoria: "Casa",
     prezzo: 69.9,
     rating: 4,
-    immagine: "pentole.jpg",
+    immagine: "assets/img/pentole.jpg",
     disponibile: true,
   },
   {
@@ -100,7 +100,7 @@ const prodotti = [
     categoria: "Casa",
     prezzo: 29.99,
     rating: 4,
-    immagine: "lampada.jpg",
+    immagine: "assets/img/lampada.jpg",
     disponibile: true,
   },
   {
@@ -108,7 +108,7 @@ const prodotti = [
     categoria: "Casa",
     prezzo: 34.99,
     rating: 4,
-    immagine: "cuscino.jpg",
+    immagine: "assets/img/cuscino.jpg",
     disponibile: true,
   },
 ];
