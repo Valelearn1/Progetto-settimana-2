@@ -14,7 +14,104 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const prodotti = [];
+const prodotti = [
+  {
+    nome: "Alexa",
+    categoria: "Elettronica",
+    prezzo: 59.99,
+    rating: 4,
+    immagine: "alexa.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Kindle",
+    categoria: "Elettronica",
+    prezzo: 139.99,
+    rating: 5,
+    immagine: "kindle.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Chiavetta USB",
+    categoria: "Elettronica",
+    prezzo: 49.99,
+    rating: 4,
+    immagine: "chiavetta-usb.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Cuffie",
+    categoria: "Elettronica",
+    prezzo: 229.0,
+    rating: 5,
+    immagine: "cuffie.jpg",
+    disponibile: false,
+  },
+  {
+    nome: "Maglia",
+    categoria: "Abbigliamento",
+    prezzo: 24.99,
+    rating: 4,
+    immagine: "maglia.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Jeans",
+    categoria: "Abbigliamento",
+    prezzo: 79.9,
+    rating: 4,
+    immagine: "jeans.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Zaino",
+    categoria: "Abbigliamento",
+    prezzo: 49.95,
+    rating: 4,
+    immagine: "zaino.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Giubbotto",
+    categoria: "Abbigliamento",
+    prezzo: 119.99,
+    rating: 3,
+    immagine: "giubbotto.jpg",
+    disponibile: false,
+  },
+  {
+    nome: "Frullatore",
+    categoria: "Casa",
+    prezzo: 159.0,
+    rating: 5,
+    immagine: "frullatore.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Pentole",
+    categoria: "Casa",
+    prezzo: 69.9,
+    rating: 4,
+    immagine: "pentole.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Lampada",
+    categoria: "Casa",
+    prezzo: 29.99,
+    rating: 4,
+    immagine: "lampada.jpg",
+    disponibile: true,
+  },
+  {
+    nome: "Cuscino",
+    categoria: "Casa",
+    prezzo: 34.99,
+    rating: 4,
+    immagine: "cuscino.jpg",
+    disponibile: true,
+  },
+];
 
 /* VERSIONE INTERMEDIA — formattaPrezzo(prezzo)
    Funzione che ritorna una stringa tipo "€ 19,99".
